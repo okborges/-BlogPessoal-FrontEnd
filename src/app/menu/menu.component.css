@@ -1,0 +1,16 @@
+.fs-16 {
+  font-size: 16pt;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bg-black {
+  background-color: black;
+}

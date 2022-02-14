@@ -1,0 +1,32 @@
+<div class="container-md">
+  <div class="row d-flex align-items-center full-width">
+    <div class="col-md-7">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+
+          <h1 class="text-center mb-3">Entrar</h1>
+          <div class="form-group py-2">
+            <label for="usuario">Usuário</label>
+            <input [(ngModel)]='usuarioLogin.usuario' class="form-control" type="text" name="usuario" id="usuario" placeholder="Digite seu usuário">
+          </div>
+          <div class="form-group py-2">
+            <label for="senha">Senha</label>
+            <input [(ngModel)]='usuarioLogin.senha' class="form-control" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+          </div>
+
+          <div class="d-flex justify-content-center py-4">
+            <button type="submit" class="btn btn-verde text-light w-100" (click)='entrar()'>Entrar</button>
+          </div>
+
+          <hr class="my-4">
+
+          <p class="text-center">Não tem uma conta? <a routerLink='/cadastrar'>Cadastre-se</a></p>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-5" id="img-bg"></div>
+  </div>
+</div>
